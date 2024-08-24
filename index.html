@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="content">
+                <form action="#" class="add_form">
+                    <input type="text" id="title" class="bg_gray" placeholder="Məhsulun adı">
+                    <input type="number" id="price" class="bg_gray" placeholder="Qiyməti">
+                    <button class="add_btn" onclick="addProduct();">Əlavə et</button>
+                </form>
+
+                <div class="table">
+                    <div class="column">
+
+                    </div>
+                </div>
+
+                <ul>
+                    <li>
+                        Ümumi məhsul sayı: <span id="count"></span>
+                    </li>
+                    <li>
+                        Məhsulların toplam dəyəri: <span id="total">0</span> AZN
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
